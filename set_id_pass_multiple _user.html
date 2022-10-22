@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+	
+	body{
+background:#ADD8E6;
+text-align: center;
+	
+	}
+	
+	
+h2{
+padding: 5%;
+text-align: center;
+color: white;
+font-family:monospace;
+}
+.div1{
+
+width: 75px;
+margin: auto;
+padding: 0%;
+}
+
+     
+
+a{
+text-decoration: none;
+
+}
+
+
+
+       
+</style>
+</head>
+<body>
+
+<h1 style= " text-align: center; font-family:serif; color: blue; background-color:white;"> We Care <h1/>  <br>
+
+<h2 style=" text-align:center;"> <a href="file:///C:/Users/HP/Desktop/we_care_u.html" target="_blank"> Home </a>&nbsp; &nbsp; <a href="file:///C:/Users/HP/Desktop/about.html" target="_blank">  About </a> &nbsp; &nbsp; <a href="file:///C:/Users/HP/Desktop/jscodes.html/nodejs/newtmeaccess.html" target="_blank"> Doctors  </a> &nbsp; &nbsp; <a href="file:///C:/Users/HP/Desktop/rul.html" target="_blank"> rules and regulation </a>  &nbsp &nbsp <a href="file:///C:/xampp/htdocs/letest_adminpagewithidpass.html" target="_blank"> Admin </a>  &nbsp &nbsp <a href="file:///C:/xampp/htdocs/blood_donation.html" target="_blank"> Blood donation </a> </h2>
+
+
+
+
+<h2> Doctors login </h2>
+
+    <lebel for="id" > uid </lebel>
+    <input type="text" name="id" id="id">
+
+<br/>
+<br/>
+
+
+<div1>
+    <lebel for="password"> password </lebel>
+    <input type="password" name="password" id="password">
+
+</div1>
+   
+
+
+    <button onclick="msg ()"> click here</button>
+    <script>
+
+ var pass=document.getElementById("password");
+ //pass.value=1234;
+ var id1=document.getElementById("id");
+
+
+
+
+ function msg()  {
+ 
+ 
+ if(id1.value>=111&&id1.value<=125){
+//alert(" click here");
+//window.location="https://www.youtube.com/watch?v=Jf-KM0ilhdg";
+
+if(pass.value==113 && id1.value=="111"){
+
+    window.location="file:///C:/xampp/htdocs/storing_patint_info_1.html";
+	}
+	else if(pass.value==114 && id1.value=="112"){
+	window.location="file:///C:/xampp/htdocs/patientinfo_dr_khalil.html";
+	}
+	else if(pass.value==115 && id1.value=="113"){
+	window.location="file:///C:/xampp/htdocs/patient_info_dr_malek.html";
+	}
+	else if(pass.value==116 && id1.value=="114"){
+		window.location="file:///C:/xampp/htdocs/patient_info_dr_tarwek.html";
+	}
+//document.write("<h1>correct pw </h1>");
+
+
+
+else{
+alert("enter correct password");
+}
+
+}
+else{
+alert("enter correct id");
+}
+}
+
+
+
+
+
+ //if(pass.value==4){
+
+//document.write("hi");
+
+ //}
+
+    </script>
+</body>
+</html>
